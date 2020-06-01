@@ -1,0 +1,91 @@
+body{
+	background-image: url(image_17.jpg);
+	/*background-color: white;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+}
+
+.reg-box{
+	width: 75%;
+	height: 75vh;
+	position: absolute;
+	left: 12%;
+	top: 13%;
+	border: 8px solid darkgreen;
+	border-radius: 12px;
+	box-shadow: 25px 25px 25px black;
+	background-image: url(image_2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 1;
+	transition: width 2s;
+}
+
+.reg-box:hover{
+	width: 80%;
+	object-position: center;
+	transition: width 2s;
+}
+
+.reg-box:unhover{
+	transition:  0.3s; 
+}
+
+.reg-box #footer{
+  list-style-type: none;
+  margin-bottom: 50px;
+  margin-top: 250px;
+  overflow: hidden;
+  background-color: #110501;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 97%;
+  position: absolute;
+  border-radius: 12px;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px darkgreen, 0 0 5px darkgreen;
+}
+
+h2{
+  text-align: center;
+  text-shadow: 2px 2px 5px green;
+}
+
+.button {
+  background-color: #160A8C;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  left:46%;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+  position: absolute;
+}
+
+.button:hover {background-color: #2410DE;}
+
+.dropdown_1{
+	background-color: rgba(10,200,0,0.7);
+	font-family: monospace;
+	font-size: 16px;
+	border-radius: 12px;
+	color: white;
+}
+
+.dropdown_1:hover{
+	background-color: darkgreen;
+}

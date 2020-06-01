@@ -1,0 +1,158 @@
+body{
+  background-color: rgba(0,0,0,1);
+}
+
+.slider{
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 97vh;
+  animation: slide 15s infinite;
+  opacity: 0.9;
+}
+
+@keyframes slide{
+  0%{
+    background-image: url(image_7.jpg);
+  }
+
+  20%{
+    background-image: url(image_7.jpg);
+  }
+  
+  20.01%{
+    background-image: url(image_14.jpg);
+  }
+
+  40%{
+    background-image: url(image_14.jpg);
+  }
+
+  40.01%{
+    background-image: url(image_12.jpg);
+  }
+
+  60%{
+    background-image: url(image_12.jpg);
+  }
+
+  60.01%{
+    background-image: url(image_11.jpg);
+  }
+
+  100%{
+    background-image: url(image_11.jpg);
+  }
+}
+
+.slider .txt3 {
+  background-color: black;
+  padding: 5px; 
+  width: 50%;
+  position: absolute;
+  margin-left: 400px;
+}
+
+.slider .txt3:hover {
+  background-color: rgba(0,0,0,1);
+}
+
+
+h1{
+  color: white;
+}
+
+h2{
+  margin-top: 70px;
+  color: white;
+  font-weight: bold;
+}
+
+h3{
+  color: white;
+  font-weight: bold;
+}
+.txt2{
+  width: 80%;
+  margin-top: 0px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  text-align: center;
+  padding: 4px;
+  color: white;
+}
+
+.txt2:hover{
+  border-bottom: 1px solid red;
+}
+
+.btn{
+  background-color: red;
+  border: none;
+  border-radius: 12px;
+  width: 30%;
+  padding: 4px;
+  margin-top: 40px;
+  font-weight: bold;
+  color: white;
+  font-family: cursive;
+  font-size: medium;
+}
+
+.btn:hover{
+border:thick;
+width:40%;
+color:blue;
+}
+
+
+a{
+  margin: 30px;
+  display: inline; 
+  color: red;
+  font-family: sans-serif;
+}
+
+a:hover{
+ 	font-family: inherit;
+  
+}
+
+#a1{
+  float: left;
+}
+
+#a2{
+  float: right;
+}
+
+.slider .login-box{
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 230px;
+  width: 30%;
+  height: 65vh;
+  font-style: oblique;
+  border-radius: 15px;
+}
+
+.slider .login-box:hover{
+  background-color: rgba(0,0,0,1);
+}
+
+i{
+  width: 3px;
+  height: 3vh;
+  color: white;
+  position: absolute;
+}
+
+img{
+  width: 120px;
+  height: 15vh;
+  position: absolute;
+  top: -60px;
+  left: 170px;
+}
